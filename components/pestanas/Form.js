@@ -1,0 +1,183 @@
+import React, { useState } from "react";
+import styled from "@emotion/styled";
+import { Modal, Button } from "react-bootstrap";
+import Politicas from "../../static/PoliticaTex";
+import FormHandHeld from "../../config/FormHandHeld";
+
+const Form = () => {
+  const ContenedorGrid = styled.div`
+    width: 50%;
+    margin-top: 2rem;
+
+    @media (max-width: 995px) {
+      width: 100%;
+      margin-top: 3rem;
+    }
+  `;
+
+  const DivSello = styled.div`
+    display: flex;
+    justify-content: center;
+    padding-top: 0rem;
+  `;
+
+  const Img = styled.img`
+    width: 70%;
+    height: 90%;
+
+    @media (max-width: 375px) {
+      width: 70%;
+      height: 90%;
+    }
+  `;
+
+  const TitDiv = styled.div`
+    text-align: center;
+    width: 100%;
+    height: 3rem;
+  `;
+
+  const Tit = styled.h1`
+    font-weight: bold;
+
+    @media (max-width: 833px) {
+      font-size: 35px !important;
+    }
+
+    @media (max-width: 550px) {
+      font-size: 28px !important;
+    }
+  `;
+
+  const Contenedor = styled.div`
+    width: 86%;
+    margin: 2rem auto;
+  `;
+
+  const FormularioDiv = styled.div`
+    width: 100%;
+    background-color: #0076c0;
+    color: white;
+    padding: 10px;
+    border-radius: 0.5rem;
+  `;
+
+  const PoliticasDiv = styled.div`
+    margin-top: 1rem;
+    width: 100%;
+  `;
+
+  const DivTarjeta = styled.div`
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  `;
+
+  const IMGTarjeta = styled.img`
+    margin: auto !important;
+    width: 23%;
+
+    @media (max-width: 500px) {
+      width: 33%;
+    }
+  `;
+
+  const IMGLogos = styled.img`
+    margin: auto !important;
+
+    @media (max-width: 1500px) {
+      width: 65%;
+    }
+
+    @media (max-width: 1100px) {
+      width: 80%;
+    }
+
+    @media (max-width: 800px) {
+      height: 8rem !important;
+    }
+
+    @media (max-width: 500px) {
+      height: 5.5rem !important;
+    }
+  `;
+
+  const TxtTarjeta = styled.p`
+    font-size: 19px;
+    font-weight: bold;
+  `;
+
+  const [abiertoAnuncios, cambiarAbiertoAnuncios] = useState(false);
+
+  const abrirModal = () => {
+    cambiarAbiertoAnuncios(true);
+  };
+
+  const cerrarModal = () => {
+    cambiarAbiertoAnuncios(false);
+  };
+
+  return (
+    <>
+      <span id="contacto"></span>
+      <ContenedorGrid>
+        <DivSello>
+          <div className="DivImg">
+            <Img
+              src="img/sellogarantia.webp"
+              alt="Sello de Garantia Hand Held Solutions"
+            />
+          </div>
+        </DivSello>
+        <TitDiv>
+          <Tit>¡Cotice ahora!</Tit>
+        </TitDiv>
+        <Contenedor>
+          <FormularioDiv>
+            <FormHandHeld />
+            <PoliticasDiv>
+              <p className="politicas">
+                Al dar click en el botón de enviar se esta aceptando nuestra{" "}
+                <a onClick={abrirModal}>política de privacidad.</a>
+              </p>
+            </PoliticasDiv>
+          </FormularioDiv>
+
+          <Modal
+            show={abiertoAnuncios}
+            onHide={cerrarModal}
+            keyboard={false}
+            size="lg"
+          >
+            <Modal.Header closeButton>
+              <Modal.Title>Anuncios</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <Politicas />
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="light" onClick={cerrarModal}>
+                Cerrar
+              </Button>
+            </Modal.Footer>
+          </Modal>
+        </Contenedor>
+        <div>
+          <DivTarjeta>
+            <IMGTarjeta
+              src="/img/Pago con tarjeta.webp"
+              alt="Icono_Pago"
+            />
+            <TxtTarjeta>¡Aceptamos pago con tarjeta!</TxtTarjeta>
+            <IMGLogos
+              src="https://res.cloudinary.com/dihawqrnt/image/upload/v1625761069/Iconos/metodos_de_pago_500x120_1_zkuoyc.png"
+              alt="Imagen_LogoPago"
+            />
+          </DivTarjeta>
+        </div>
+      </ContenedorGrid>
+    </>
+  );
+};
+
+export default Form;

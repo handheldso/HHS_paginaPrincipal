@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nimport { jsx as ___EmotionJSX } from \"@emotion/react\";\n\nvar Error = function Error(_ref) {\n  var mensaje = _ref.mensaje;\n  return ___EmotionJSX(\"p\", {\n    className: \"alert alert-danger text-center p-2 \",\n    role: \"alert\"\n  }, mensaje);\n};\n\nexport default Error;","map":null,"metadata":{},"sourceType":"module"}
