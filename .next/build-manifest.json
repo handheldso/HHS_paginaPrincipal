@@ -1,203 +1,43 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-1682bd92282ca2daa11e.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
-  "ampDevFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/amp.js"
+  ],
   "lowPriorityFiles": [
-    "static/dQcMkt9av309VuqeInz2d/_buildManifest.js",
-    "static/dQcMkt9av309VuqeInz2d/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/cb1608f2.4cfa12f42085ee35ea6d.js",
-      "static/chunks/252f366e.1ee67e42c5c41f9b18c6.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/pages/index-112742de8772916990c9.js"
-    ],
-    "/DSD-venta-en-ruta": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/pages/DSD-venta-en-ruta-9acf189da36a3924e517.js"
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/css/4abbb8d420703e8db166.css",
-      "static/chunks/pages/_app-926038c66935c50d37d8.js"
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/pages/_error-cf3701e606153880994c.js"
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/_error.js"
     ],
-    "/impresion-credenciales-tarjetas-gafetes-pvc": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/949f18366d626b8c701791c5c75df1e1961be649.f0147ec4873ca1d8cfb4.js",
-      "static/chunks/pages/impresion-credenciales-tarjetas-gafetes-pvc-766796c7e2300aaab477.js"
-    ],
-    "/impresion-etiquetas": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/949f18366d626b8c701791c5c75df1e1961be649.f0147ec4873ca1d8cfb4.js",
-      "static/chunks/pages/impresion-etiquetas-1f359bac685b99feee00.js"
-    ],
-    "/renta-de-handhelds": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/1a1cf46f7a8eb36c9dc566bee67aaa03566f213d.bebb504e1e8980389329.js",
-      "static/chunks/pages/renta-de-handhelds-8a150256c39897f05acc.js"
-    ],
-    "/renta-de-impresoras-de-etiquetas": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/1a1cf46f7a8eb36c9dc566bee67aaa03566f213d.bebb504e1e8980389329.js",
-      "static/chunks/pages/renta-de-impresoras-de-etiquetas-c281bee8e542a1eff41a.js"
-    ],
-    "/renta-de-lectores-de-codigos-de-barras": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/1a1cf46f7a8eb36c9dc566bee67aaa03566f213d.bebb504e1e8980389329.js",
-      "static/chunks/pages/renta-de-lectores-de-codigos-de-barras-4547f87074e5d6e0275b.js"
+    "/next/dist/pages/_error": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/next/dist/pages/_error.js"
     ],
     "/reparacion-de-handhelds": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/f85cedfbbe8df1ad64d5abc1d20fc72d2d5a8000.4568bc120da34d01f2f0.js",
-      "static/chunks/pages/reparacion-de-handhelds-d7eaa52936e8814c4dfd.js"
-    ],
-    "/reparacion-de-impresoras-de-etiquetas": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/f85cedfbbe8df1ad64d5abc1d20fc72d2d5a8000.4568bc120da34d01f2f0.js",
-      "static/chunks/pages/reparacion-de-impresoras-de-etiquetas-af05c5603e02ae9d439c.js"
-    ],
-    "/reparacion-de-lectores-de-codigos-de-barras": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/f85cedfbbe8df1ad64d5abc1d20fc72d2d5a8000.4568bc120da34d01f2f0.js",
-      "static/chunks/pages/reparacion-de-lectores-de-codigos-de-barras-04faa74838bbf347e4c7.js"
-    ],
-    "/venta-de-accesorios-y-consumibles": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/pages/venta-de-accesorios-y-consumibles-ad06c573b10a2f6e570a.js"
-    ],
-    "/venta-de-handhelds": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/4b0887ef365790eff590c4cc9a87d54fb15f81e9.a315e6cf762eb652bdd3.js",
-      "static/chunks/pages/venta-de-handhelds-bbf3e92afc8d2265880b.js"
-    ],
-    "/venta-de-impresoras-de-etiquetas": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/4b0887ef365790eff590c4cc9a87d54fb15f81e9.a315e6cf762eb652bdd3.js",
-      "static/chunks/pages/venta-de-impresoras-de-etiquetas-022fd2b49fe111daeaf7.js"
-    ],
-    "/venta-de-lectores-de-codigos-de-barras": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/4b0887ef365790eff590c4cc9a87d54fb15f81e9.a315e6cf762eb652bdd3.js",
-      "static/chunks/pages/venta-de-lectores-de-codigos-de-barras-d2c20df3ef2f77d28efb.js"
-    ],
-    "/venta-fundas-handheld-impresora-portatil": [
-      "static/chunks/main-14bb814ce4f4c75cb572.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.8cbeccf51c4e27e813f7.js",
-      "static/chunks/commons.b6995a94ae89059f3277.js",
-      "static/chunks/98119275c216c2bdf3639cdaa1b99ff3b1b38fa0.b31325f691f34c02451f.js",
-      "static/chunks/559a84f76b1f75a951c3792d5e1ee6bb21966974.0a388210af5bbeb1c4d7.js",
-      "static/chunks/ff4e9e1465b744bca55ec773dbd4664f5e5630a6.07b99ba611614f9fa252.js",
-      "static/chunks/63677f02142173c5da734d7482ce6a68f1e9fc1e.3c9faf65f0987133d544.js",
-      "static/chunks/pages/venta-fundas-handheld-impresora-portatil-cd98d6d3f99b8456dc0a.js"
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/reparacion-de-handhelds.js"
     ]
   },
   "ampFirstPages": []

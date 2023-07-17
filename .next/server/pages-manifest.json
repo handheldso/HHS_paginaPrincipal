@@ -1,21 +1,8 @@
 {
-  "/DSD-venta-en-ruta": "pages/DSD-venta-en-ruta.html",
   "/_app": "pages/_app.js",
-  "/impresion-credenciales-tarjetas-gafetes-pvc": "pages/impresion-credenciales-tarjetas-gafetes-pvc.html",
-  "/impresion-etiquetas": "pages/impresion-etiquetas.html",
-  "/": "pages/index.html",
-  "/renta-de-handhelds": "pages/renta-de-handhelds.html",
-  "/renta-de-impresoras-de-etiquetas": "pages/renta-de-impresoras-de-etiquetas.html",
-  "/renta-de-lectores-de-codigos-de-barras": "pages/renta-de-lectores-de-codigos-de-barras.html",
-  "/reparacion-de-handhelds": "pages/reparacion-de-handhelds.html",
-  "/reparacion-de-impresoras-de-etiquetas": "pages/reparacion-de-impresoras-de-etiquetas.html",
-  "/reparacion-de-lectores-de-codigos-de-barras": "pages/reparacion-de-lectores-de-codigos-de-barras.html",
-  "/venta-de-accesorios-y-consumibles": "pages/venta-de-accesorios-y-consumibles.html",
-  "/venta-de-handhelds": "pages/venta-de-handhelds.html",
-  "/venta-de-impresoras-de-etiquetas": "pages/venta-de-impresoras-de-etiquetas.html",
-  "/venta-de-lectores-de-codigos-de-barras": "pages/venta-de-lectores-de-codigos-de-barras.html",
-  "/venta-fundas-handheld-impresora-portatil": "pages/venta-fundas-handheld-impresora-portatil.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/reparacion-de-handhelds": "pages/reparacion-de-handhelds.js"
 }
