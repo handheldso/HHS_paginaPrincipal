@@ -313,7 +313,7 @@ const ReparacionH = () => {
         </MitadIzq>
         <MitadDer>
           <IMG
-            src="/img/REPARACION HANDHELD PESTAÑA.webp"
+            src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691175251/HHSv2.1/reparaiones.png"
             alt="Reparacion de HandHelds"
           />
         </MitadDer>

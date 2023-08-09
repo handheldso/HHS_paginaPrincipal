@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-
+import { Modal, Carousel, Button, Navbar, Nav, NavDropdown, Item,Container } from "react-bootstrap";
 
 const ImagenPrincipal = () => {
   const Imagen = styled.img`
@@ -13,55 +13,43 @@ const ImagenPrincipal = () => {
   position: relative;
   margin: auto;
   `;
-  const Video = styled.iframe`
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  const Video = styled.video`
+  width: 100%;
+  background: #202124;
+  height: 60vh;
   `;
 
 
   return (
-    <>
-      <section>
-    <section>
-    <Imagen
-          src="/img/Julio regalado hand held.png"
-          alt="Julio regalado hand held solutions"
+    <Container fluid>
+    <Carousel fade>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691174646/HHSv2.1/julio_regalado.png"
+          alt="Julio Regalado"
         />
-    {/* <Imagen
-          src="/img/Banner Aniversario HHS.png"
-          alt="Aniversario HHS"
-        /> */}
-        <br />
-        <br />
-      <VideoContainer>
-      <Video
-            src="https://www.youtube.com/embed/66rAuvCWMmw?autoplay=1&controls=0&showinfo=0&rel=0"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></Video>
-      </VideoContainer>
-    </section>
-        <br />
-        <Imagen
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
           src="/img/Handheld.png"
-          alt="Impresoras de credenciales"
+          alt="HandHeld Solutions"
         />
-        <br />
-        <br />
-        <Imagen
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
           src="/img/Banner campaña evolis.png"
-          alt="Renta Handheld"
+          alt="Third slide"
         />
-        {/* <Imagen
-          src="/img/Fabricantes banner pagina web.gif"
-          alt="Honeywell Intermec Symbol Motorola Zebra Renta Reparación Venta Handheld"
-        /> */}
-      </section>
-    </>
+      </Carousel.Item>
+      <Carousel.Item>
+        <Video src="presentacion.mp4" controls autoPlay></Video>
+      </Carousel.Item>
+    </Carousel>
+   
+    </Container>
   );
 };
 

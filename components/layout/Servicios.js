@@ -116,6 +116,8 @@ const Servicios = () => {
 
   const Informacion = styled.a`
     font-size: 18px;
+    max-width: 100% !important;
+    color:#fff !important;
   `;
 
   const TextDiv = styled.div`
