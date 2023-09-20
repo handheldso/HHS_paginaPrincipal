@@ -65,9 +65,8 @@ const Ubicacion = () => {
         </UbiTitDiv>
         <UbiTextDiv>
           <UbiText>
-            Calle. Palenque, Col. Letrán Valle, Alcaldía Benito Juárez
-            <br />
-            CDMX, C.P. 03650, México
+            {/* Calle: Heriberto Frías #249, Col. Narvarte Poniente, Alcaldía: Benito Juarez <br />C.P. 03020, CDMX, México */}
+            
             <br />
             Teléfono (+52) 55 5115 6043 / (+52) 55 7599 6272 <br />
             Horarios de atención de Lunes a Viernes de 9:00 AM a 6:00 PM

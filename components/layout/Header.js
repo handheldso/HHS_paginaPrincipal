@@ -112,6 +112,8 @@ const Header = () => {
     font-weight: bold;
     text-align: center;
     padding-top: 5px;
+    margin:0px;
+    
 
     @media (max-width: 1950px) {
         font-size: 18px;
@@ -120,7 +122,7 @@ const Header = () => {
 
     @media (max-width: 991px) {
       margin-right: 11px;
-      margin-left: 32px;
+      margin-left: 0px;
     }
 
     @media (max-width: 781px) {
@@ -142,7 +144,9 @@ const Header = () => {
   `;
 
   const Numero = styled.a`
-    margin-top: -15px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
     
   `;
 
@@ -151,12 +155,12 @@ const Header = () => {
     margin-bottom: 10px;
 
     @media (max-width: 781px) {
-      width: 44%;
+      width: 100%;
       font-size: 13px !important;
     }
 
     @media (max-width: 540px) {
-      width: 45%;
+      width: 100%;
       font-size: 11px !important;
     }
 
@@ -169,7 +173,7 @@ const Header = () => {
   const BotonCorreo = styled.a`
     text-align: center;
     font-size: 17px;
-    height: 38px;
+    height: auto;
     width: 64%;
     margin: 0px auto;
     font-weight: bold;
@@ -182,7 +186,7 @@ const Header = () => {
   const BotonCorreoResponsive = styled.a`
     text-align: center;
     font-size: 17px;
-    height: 38px;
+    height: auto;
     width: 64%;
     margin: 0px auto;
     font-weight: bold;
@@ -206,28 +210,21 @@ const Header = () => {
   `;
 
   const Direccion = styled.p`
-    font-size: 14px;
+    background-color:black
     padding-top: 11px;
     text-align: center;
     width: 100%;
-    margin: 0px auto;
+    heigth: auto !important;
+    margin: 10px auto;
+    font-size: 12pt !important;
+    font-weight:bold;
+    color:#007ac0;
+    text-transform:uppercase;
 
     @media (max-width: 1950px) {
       font-size: 14px;
     }
   `;
-
-/* const Autorizado = styled.p`
-    font-size: 10px;
-    padding-top: 11px;
-    text-align: left;
-    width: 20%;
-    margin: 15px auto;
-
-    @media (max-width: 1950px) {
-      font-size: 10px;
-    }
-  `; */
 
   const Menu = styled.div`
     height: auto;
@@ -468,7 +465,6 @@ const Header = () => {
                 <a onClick={RedirigirIMG}>
                   <Logo
                     src="/img/LOGO-HHS.webp"
-                    /* src="/img/LOGO-ANIVERSARIO.png" */
                     alt="Logo hand held solutions"
                   />
                 </a>
@@ -476,69 +472,66 @@ const Header = () => {
               {size < 991 ? (
                 <div className="address">
                   <div className="haber">
-                    <Llamanos>¡Llámanos!</Llamanos>
+                    <Llamanos><label>¡Llámanos!</label></Llamanos>
                     <NumeroResponsive
                       className="btn btn-primary"
                       role="button"
                       href="tel: (55) 55 5115 6043"
                     >
                       <strong>(+52) 55 5115 6043</strong>
-                    </NumeroResponsive>
+                    </NumeroResponsive><br/>
+                    <BotonCorreoResponsive
+                    className="btn btn-primary btn-block b-cont"
+                    href="#contacto"
+                  >
+                    <strong>contacto@handheldsolutions.com.mx</strong>
+                    </BotonCorreoResponsive>
                   </div>
                   <LogoC
                     src="/img/Logotipo Centro de Servicio Autorizado.png"
                     alt="Centro de Servicio Autorizado"
                   />
-                  <BotonCorreoResponsive
-                    className="btn btn-primary btn-block b-cont"
-                    href="#contacto"
-                  >
-                    <strong>contacto@handheldsolutions.com.mx</strong>
-                  </BotonCorreoResponsive>
+                  
                 </div>
               ) : (
                 <>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <div className="llamanos">
-                    <Llamanos>¡Llámanos!</Llamanos>
+                    <Llamanos><label>¡Llámanos!</label></Llamanos>
                     <Numero
                       className="btn btn-primary numno"
                       role="button"
                       href="tel:(55) 55 5115 6043"
                     >
                       <strong>(+52) 55 5115 6043</strong>
-                    </Numero>
-                  </div>
-                  <LogoC
-                    src="/img/Logotipo Centro de Servicio Autorizado.png"
-                    alt="Centro de Servicio Autorizado"
-                  />
-                  {/* <Autorizado className="le">
-                  <strong>
-                        "Centro de Servicio Autorizado"
-                        <br></br>
-                        Contamos con Ingenieros Certificados, herramientas especializadas
-                         y soporte necesario para llevar a cabo, tareas de mantenimiento y 
-                         reparación de equipos Newland.
-                      </strong>
-                      </Autorizado> */}
-                  <div className="address">
+                    </Numero><br />
                     <BotonCorreo
                       href="#contacto"
                       className="btn btn-primary btn-block b-cont tam"
                     >
                       <strong>contacto@handheldsolutions.com.mx</strong>
                     </BotonCorreo>
-                    <Direccion className="le">
-                      <strong>
-                        Calle. Palenque,&nbsp;Col. Letrán Valle, Alcaldía Benito
-                        Juárez
-                      </strong>
-                      <br></br>
-                      <strong>&nbsp;CDMX, C.P. 03650, México</strong>
-                      <br></br>
-                    </Direccion>
                   </div>
+                  <div className="address">
+                   
+                      {/* <Direccion className="le">
+                      
+                        <strong>
+                        <div className="a">
+                          <p>Dirección:</p>
+                        </div>
+                          Calle: Heriberto Frías #249, Col. Narvarte Poniente, <br />
+                          Alcaldía: Benito Juarez C.P. 03020, CDMX México
+                        </strong>
+                        <br></br>
+        
+                        <br></br> 
+                      </Direccion>*/}
+                  </div>
+                  <LogoC
+                    src="/img/Logotipo Centro de Servicio Autorizado.png"
+                    alt="Centro de Servicio Autorizado"
+                  />
                 </>
               )}
             </div>

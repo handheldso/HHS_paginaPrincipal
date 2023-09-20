@@ -63,16 +63,14 @@ const MapaDuns = () => {
       <Contenedor>
         {size > 991 ? (
           <>
-            <DivFrame>
-              <Iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.9648016914055!2d-99.15541637077204!3d19.375248064335118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc4ad02be539%3A0x2eadb37c290dea52!2sHand%20Held%20Solutions!5e0!3m2!1ses-419!2smx!4v1594188393220!5m2!1ses-419!2smx"
-                width="80%"
-                height="350"
-                frameborder="0"
-                aria-hidden="false"
-                tabindex="0"
-              />
-            </DivFrame>
+            {/* <DivFrame>
+            <Iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.3162005892946!2d-99.1620983896174!3d19.39873928179781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff11b32782eb%3A0x2ceb2e6a33117147!2sHeriberto%20Fr%C3%ADas%20249%2C%20Narvarte%20Poniente%2C%20Benito%20Ju%C3%A1rez%2C%2003020%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1694638722555!5m2!1ses-419!2smx" 
+              width="80%"
+              height="350"
+              frameborder="0"
+              aria-hidden="false"
+              tabindex="0" />
+            </DivFrame> */}
             <DunsDiv className="mt-5">
               <DunsImgDiv>
                 <DunsImagen
@@ -112,7 +110,7 @@ const MapaDuns = () => {
             </DunsDiv>
             <DivFrame>
               <Iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.9648016914055!2d-99.15541637077204!3d19.375248064335118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc4ad02be539%3A0x2eadb37c290dea52!2sHand%20Held%20Solutions!5e0!3m2!1ses-419!2smx!4v1594188393220!5m2!1ses-419!2smx"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.3162005892946!2d-99.1620983896174!3d19.39873928179781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff11b32782eb%3A0x2ceb2e6a33117147!2sHeriberto%20Fr%C3%ADas%20249%2C%20Narvarte%20Poniente%2C%20Benito%20Ju%C3%A1rez%2C%2003020%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1694638722555!5m2!1ses-419!2smx"
                 width="80%"
                 height="350"
                 frameborder="0"

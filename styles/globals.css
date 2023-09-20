@@ -6,6 +6,27 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.a{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+}
+
+.gif{
+  width: 150px;
+  
+}
+
+.le {
+  margin: 10px;
+  font-size: 11pt !important;
+  color:#000 !important;
+}
+    
+
 a {
   color: inherit;
   text-decoration: none !important;
@@ -38,6 +59,8 @@ li {
 
 .haber {
   display: flex;
+  flex-direction: column;
+
 }
 
 
@@ -67,10 +90,6 @@ li {
   cursor: pointer;
 }
 
-
-.llamanos {
-  margin: auto;
-}
 
 
 .separacion {
@@ -764,7 +783,7 @@ li {
 
   .tam {
     width: 100% !important;
-    height: 40% !important;
+    height: auto !important;
   }
 
   .enlaces {
