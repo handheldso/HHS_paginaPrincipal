@@ -15,6 +15,10 @@ const Header = () => {
     background-color: #0076c0;
     display: flex;
     padding-top: 11px;
+    
+    @media (max-width: 699px) {
+      flex-direction: column;
+    }
   `;
 
   const TextoBienvenido = styled.h1`
@@ -32,41 +36,57 @@ const Header = () => {
     @media (max-width: 881px) {
       margin-top: 0px;
     }
+    @media (max-width: 699px) {
+      text-aling:center;
+      width:100%
+    }
   `;
 
   const SocialMedia = styled.div`
-    height: 100%;
+    height: auto;
     display: flex;
-    margin-bottom: 10px;
+
 
     @media (max-width: 481px) {
       margin-bottom: 0px;
     }
 
-    @media (max-width: 428px) {
-      margin-bottom: 8px;
+    @media (max-width: 699px) {
+      align-items: center;
+      justify-content: space-evenly;
+      margin:10px;
     }
   `;
 
   const LogoRedes = styled.img`
     width: 40px;
     height: 40px;
-    margin-right: 25px;
+    margin-rigth:20px;
 
     @media (max-width: 1950px) {
         width: 25px;
         height: 25px;
+        margin-right: 20px;
     }
+    @media (max-width: 699px) {
+      width: 23px !important;
+      height: 23px !important;
+  }
   `;
 
   const LogoRedesYT = styled.img`
     width: 50px;
     height: 40px;
-    margin-right: 25px;
+    margin-right: 20px;
 
     @media (max-width: 1950px) {
         width: 30px;
         height: 25px;
+        margin-right: 20px;
+    }
+    @media (max-width: 699px) {
+      width: 23px !important;
+      height: 23px !important;
     }
   `;
 
@@ -101,8 +121,8 @@ const Header = () => {
       height: 80px;
     }
 
-    @media (max-width: 350px) {
-      height: 60px;
+    @media (max-width: 699px) {
+      display:none
     }
   `;
 
@@ -152,7 +172,7 @@ const Header = () => {
 
   const NumeroResponsive = styled.a`
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
     @media (max-width: 781px) {
       width: 100%;
@@ -165,7 +185,7 @@ const Header = () => {
     }
 
     @media (max-width: 450px) {
-      width: 46%;
+      width: 100%;
       font-size: 9px !important;
     }
   `;
@@ -479,7 +499,7 @@ const Header = () => {
                       href="tel: (55) 55 5115 6043"
                     >
                       <strong>(+52) 55 5115 6043</strong>
-                    </NumeroResponsive><br/>
+                    </NumeroResponsive>
                     <BotonCorreoResponsive
                     className="btn btn-primary btn-block b-cont"
                     href="#contacto"
@@ -504,7 +524,7 @@ const Header = () => {
                       href="tel:(55) 55 5115 6043"
                     >
                       <strong>(+52) 55 5115 6043</strong>
-                    </Numero><br />
+                    </Numero>
                     <BotonCorreo
                       href="#contacto"
                       className="btn btn-primary btn-block b-cont tam"
@@ -514,7 +534,7 @@ const Header = () => {
                   </div>
                   <div className="address">
                    
-                      {/* <Direccion className="le">
+                      <Direccion className="le">
                       
                         <strong>
                         <div className="a">
@@ -526,7 +546,7 @@ const Header = () => {
                         <br></br>
         
                         <br></br> 
-                      </Direccion>*/}
+                      </Direccion>
                   </div>
                   <LogoC
                     src="/img/Logotipo Centro de Servicio Autorizado.png"

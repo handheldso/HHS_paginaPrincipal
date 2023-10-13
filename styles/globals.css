@@ -176,10 +176,6 @@ li {
   padding-top: 9.5rem; 
   margin-top: -9.5rem;
 }
-
-
-
-
 #renta {
   padding-top: 10rem; 
   margin-top: -10rem;
@@ -428,6 +424,7 @@ li {
 
 @media (max-width: 881px) {
   #welcome {
+    
     font-size: 22px !important;
     padding-top: 7px !important;
 
@@ -525,6 +522,7 @@ li {
 
 @media (max-width: 647px) {
   #welcome {
+  
     font-size: 19px !important;
     width: 80%;
   }
@@ -538,12 +536,17 @@ li {
 
 @media (max-width: 621px) {
   #welcome {
+    width: 100%;
+    text-align: center;
     font-size: 18px !important;
-  }
-
-  .redes {
-    margin-top: 5px;
-  }
+  }}
+  @media (max-width: 699px) {
+    #welcome {
+      width: 100%;
+      text-align: center;
+      font-size: 18px !important;
+    }
+  
 }
 
 

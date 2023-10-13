@@ -65,11 +65,11 @@ const Ubicacion = () => {
         </UbiTitDiv>
         <UbiTextDiv>
           <UbiText>
-            {/* Calle: Heriberto Frías #249, Col. Narvarte Poniente, Alcaldía: Benito Juarez <br />C.P. 03020, CDMX, México */}
+            Calle: Heriberto Frías #249, Col. Narvarte Poniente, Alcaldía: Benito Juarez <br />C.P. 03020, CDMX, México
             
             <br />
-            Teléfono (+52) 55 5115 6043 / (+52) 55 7599 6272 <br />
-            Horarios de atención de Lunes a Viernes de 9:00 AM a 6:00 PM
+            Teléfono (+52) 55 5115 6043 <br />
+            Horarios de atención de Lunes a Sabado de 9:00 AM a 6:00 PM
             <br />
             <br />
             Renta, Leasing y Arrendamiento de Terminales Portátiles, Handhelds, Lectores de Códigos, Impresoras de Etiquetas y Credenciales "BARATAS Y ECONÓMICAS" Con Una Minima Inversión Adquiera La Solución A Su Necisidad.
