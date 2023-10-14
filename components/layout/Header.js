@@ -30,7 +30,7 @@ const Header = () => {
     
   })
   const ImgRedes = styled.img`
-    width: 60px;
+    width: 30px;
     aspect-ratio: 3/2;
     object-fit: contain;
   `
@@ -380,21 +380,21 @@ const RedirigirInicio = (e) => {
                 <Link href="https://wa.me/message/KZSHX5FOWASGF1" target='_blank'>
                     <ImgRedes
                         className={``}
-                        src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691193318/NuevaPagina/Icon/whatsapp_bl.png"
+                        src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/wtapp"
                         alt="icono de whatsapp"
                     />
                 </Link>
                 <Link href="https://www.facebook.com/HandHeldSolutionsOficial" target='_blank'>
                     <ImgRedes
                         className={``}
-                        src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691193318/NuevaPagina/Icon/facebook_bl.png"
+                        src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/fb"
                         alt="icono facebook"
                     />
                 </Link>
                 <Link href="https://www.linkedin.com/company/handheldsolutions/" target='_blank'>
                     <ImgRedes
                         className={``}
-                        src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691193318/NuevaPagina/Icon/in_bl.png"
+                        src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/In"
                         alt="icono linkedin"
                     />
                 </Link>
@@ -408,21 +408,21 @@ const RedirigirInicio = (e) => {
                 <Link href="https://www.tiktok.com/@handheldsolutionshhs" target='_blank'>
                     <ImgRedes
                         className={``}
-                        src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691193318/NuevaPagina/Icon/tiktok_bl.png"
+                        src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/tiktok"
                         alt="icono tiktok"
                     />
                 </Link>
                 <Link href="https://www.instagram.com/hand_held_solutions/" target='_blank'>
                     <ImgRedes
                         className={``}
-                        src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691193318/NuevaPagina/Icon/instagram_bl.png"
+                        src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/ig"
                         alt="icono instagram"
                      />
                 </Link>
                 <Link href="https://twitter.com/HandHSolutions" target='_blank'>
                     <ImgRedes
                         className={``}
-                        src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691193318/NuevaPagina/Icon/twitter_bl.png"
+                        src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/twitter"
                         alt="icono twitter"
                     />
                 </Link>       
