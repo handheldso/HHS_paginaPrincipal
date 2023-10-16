@@ -162,6 +162,18 @@ const Servicios = () => {
     }
   `;
 
+
+  const Video = styled.video`
+    width: 30%;
+    background: #202124;
+        border-radius: 20px;
+
+    @media (max-width: 699px) {
+      width: 60%;
+    }
+
+  `;
+
   const [abiertoModal, cambiarAbiertoModal] = useState(false);
   const [abiertoModalD, cambiarAbiertoModalD] = useState(false);
   const [abiertoModalE, cambiarAbiertoModalE] = useState(false);
@@ -213,14 +225,20 @@ const Servicios = () => {
       <section>
         <Servicios>
           <ServiciosDif>
-            <p>
-              Hand Held Solutions cuenta con años de experiencia ofreciendo los
-              servicios de renta, reparación y venta de Hand Held´s, lectores de
-              códigos 1D y 2D, impresoras industriales, de escritorio y
-              portátiles. Contamos con los accesorios y consumibles adecuados
-              para cada equipo.
-              <br />  
-            </p>
+            <section className="textoprincipal">
+              <p>
+                Hand Held Solutions cuenta con años de experiencia ofreciendo los
+                servicios de renta, reparación y venta de Hand Held´s, lectores de
+                códigos 1D y 2D, impresoras industriales, de escritorio y
+                portátiles. Contamos con los accesorios y consumibles adecuados
+                para cada equipo.
+                <br />  
+              </p>
+              <Video autoPlay controls>
+                <source src="presentacion.mp4" />
+              </Video>
+            </section>
+           
             <Sello>
               <div className="idsd mtoop">
                 <IMGDSD

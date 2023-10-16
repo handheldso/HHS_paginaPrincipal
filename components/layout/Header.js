@@ -35,7 +35,7 @@ const Header = () => {
     object-fit: contain;
   `
   const ImgBandera = styled.img`
-  width: 25px;
+  width: 20px;
   margin:5px
 
 `
@@ -370,12 +370,13 @@ const RedirigirInicio = (e) => {
         
         <div className="container-fluid">
         <button type="button" class="btn btn-outline-light navbar-brand col-12 order-sm-12 order-lg-0 col-lg-2 col-xl-2 order-12 order-lg-0" >
-        <ImgBandera
-          className={``}
-          src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691015774/HHSv2.1/banderas/bandera_mexico.png"
-          alt="icono de la bandera mexico"
-        />
-          <strong><label>Tel.: 55 51 15 60 43</label></strong></button>
+          <ImgBandera
+            className={``}
+            src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691015774/HHSv2.1/banderas/bandera_mexico.png"
+            alt="icono de la bandera mexico"
+          />
+          <strong>Tel.: 55 51 15 60 43</strong>
+        </button>
           <div className={`nav collapse navbar-collapse d-block nav_redes col-xl-6`} id="navbarSupportedContent">
                 <Link href="https://wa.me/message/KZSHX5FOWASGF1" target='_blank'>
                     <ImgRedes
@@ -431,22 +432,22 @@ const RedirigirInicio = (e) => {
         </div>
     </nav>
     <nav className={` navbar navbar-expand-lg bg-body-tertiary navbarmenu nav_menu nav_contacto`} id="nav_menu">
-            <div className="container-fluid ">
-                <ImgLogos src='https://res.cloudinary.com/dihawqrnt/image/upload/v1690567675/HHSv2.1/logo_hhs.webp' alt='Logo HandHeldSolutions' className={` navbar-brand `}/>
-                <div className='order-sm-12 order-12 order-lg-0' id="navbarNav">
-                <strong>
-                  <h4>Direccion:</h4>
-                        Calle. Palenque,&nbsp;Col. Letrán Valle, Alcaldía Benito
-                        Juárez&nbsp;CDMX, C.P. 03650, México
-                </strong>
-                      
-                </div>
-                <div className="d-flex">
-                    <ImgLogos src='https://res.cloudinary.com/dihawqrnt/image/upload/v1690567956/HHSv2.1/logo_newland.png' alt='Logo Newland' className={`navbar-brand`} />
-                </div>
-            </div>
+      <div className="container-fluid ">
+          <ImgLogos src='https://res.cloudinary.com/dihawqrnt/image/upload/v1690567675/HHSv2.1/logo_hhs.webp' alt='Logo HandHeldSolutions' className={` navbar-brand `}/>
+          <div className='order-sm-12 order-12 order-lg-0' id="navbarNav">
+          <strong>
+            <h4>Direccion:</h4>
+            Heriberto Frías # 249, Col. Narvarte Poniente, Delegación Benito Juárez,
+              C.P. 03020, Ciudad de México.
+          </strong>
+                
+          </div>
+          <div className="d-none d-md-flex">
+            <ImgLogos src='https://res.cloudinary.com/dihawqrnt/image/upload/v1690567956/HHSv2.1/logo_newland.png' alt='Logo Newland' className={`navbar-brand`} />
+          </div>
+      </div>
     </nav>
-    <Tarjeta className="" />
+ 
      <Navbar id="nav-menu" className="nav_donw" expand="lg" variant="dark">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

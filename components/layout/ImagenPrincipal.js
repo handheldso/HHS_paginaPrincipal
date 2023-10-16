@@ -21,7 +21,6 @@ const ImagenPrincipal = () => {
 
 
   return (
-    <Container fluid>
     <Carousel fade>
       <Carousel.Item>
         <img
@@ -44,12 +43,9 @@ const ImagenPrincipal = () => {
           alt="Third slide"
         />
       </Carousel.Item>
-      <Carousel.Item>
-        <Video src="presentacion.mp4" controls autoPlay></Video>
-      </Carousel.Item>
     </Carousel>
    
-    </Container>
+
   );
 };
 

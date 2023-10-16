@@ -16,7 +16,28 @@
   }
 }
 
-
+.textoprincipal{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+@media (max-width: 699px) {
+  .textoprincipal{
+    flex-direction: column;
+    padding: 0px;
+  }
+  .textoprincipal p{
+    margin: 0px;
+  }
+}
+.textoprincipal p{
+  
+  margin: 30px;
+  font-size: 20px;
+  color:#495057;
+  font-weight: bold;
+  opacity: 0.8;
+}
 .nav-link:hover{
   background-color: #0078c0 ;
   border-radius: 5px;
@@ -66,11 +87,14 @@ a {
 .dropdown-menu a{
   color: #000 !important; 
 }
+#header button{
+  border:0px;
+}
 #nav-menu{
   text-align: center;
   background-color: #0078c0  !important;
   justify-content: center;
-  border-radius: 0px 0px 20px 20px;
+
   border-top: 1px solid #fff;
 }
 .scroll-down .nav_contacto{
