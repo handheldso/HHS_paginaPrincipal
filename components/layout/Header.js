@@ -84,23 +84,21 @@ const SocialMedia = styled.div`
 `;
 
 const LogoRedes = styled.img`
-  width: 40px;
-  height: 40px;
+  width: 70px;
+  
   margin-right: 25px;
-
   @media (max-width: 1950px) {
-      width: 25px;
+      width: 30px;
       height: 25px;
   }
 `;
 
 const LogoRedesYT = styled.img`
-  width: 50px;
-  height: 40px;
+  width: 80px;
   margin-right: 25px;
 
   @media (max-width: 1950px) {
-      width: 30px;
+      width: 45px;
       height: 25px;
   }
 `;
@@ -380,51 +378,58 @@ const RedirigirInicio = (e) => {
           <div className={`nav collapse navbar-collapse d-block nav_redes col-xl-6`} id="navbarSupportedContent">
                 <Link href="https://wa.me/message/KZSHX5FOWASGF1" target='_blank'>
                     <ImgRedes
-                        className={``}
+                        className={`img_icon`}
                         src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/wtapp"
                         alt="icono de whatsapp"
+                        id="wp"
                     />
                 </Link>
                 <Link href="https://www.facebook.com/HandHeldSolutionsOficial" target='_blank'>
                     <ImgRedes
-                        className={``}
+                        className={`img_icon`}
                         src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/fb"
                         alt="icono facebook"
+                        id="fb"
                     />
                 </Link>
                 <Link href="https://www.linkedin.com/company/handheldsolutions/" target='_blank'>
                     <ImgRedes
-                        className={``}
+                        className={`img_icon`}
                         src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/In"
                         alt="icono linkedin"
+                        id="ln"
                     />
                 </Link>
                 <Link href="https://www.youtube.com/channel/UCjVPKTVVs0N-oVpuLizEFaw" target='_blank'>
                     <ImgBandera
-                        className={``}
+                        className={`img_icon`}
                         src="https://res.cloudinary.com/dihawqrnt/image/upload/v1690997560/HHSv2.1/Logos-redes/yt_blanco.png"
                         alt="icono youtube"
+                        id="yt"
                     />
                 </Link>
                 <Link href="https://www.tiktok.com/@handheldsolutionshhs" target='_blank'>
                     <ImgRedes
-                        className={``}
+                        className={`img_icon`}
                         src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/tiktok"
                         alt="icono tiktok"
+                        id="tk"
                     />
                 </Link>
                 <Link href="https://www.instagram.com/hand_held_solutions/" target='_blank'>
                     <ImgRedes
-                        className={``}
+                        className={`img_icon`}
                         src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/ig"
                         alt="icono instagram"
+                        id="ig"
                      />
                 </Link>
                 <Link href="https://twitter.com/HandHSolutions" target='_blank'>
                     <ImgRedes
-                        className={``}
+                        className={`img_icon`}
                         src="https://res.cloudinary.com/dihawqrnt/image/upload/f_auto,q_auto/v1/NuevaPagina/Icon/twitter"
                         alt="icono twitter"
+                        id="tw"
                     />
                 </Link>       
             </div>
