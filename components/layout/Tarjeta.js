@@ -49,7 +49,7 @@ const Tarjeta = () => {
 
   return (
     <>
-      <FondoBase>
+      <FondoBase className="nav_tarjeta d-none d-sm-none d-md-block d-lg-block">
         <Flex>
           <Texto>¡Aceptamos pago con tarjeta!</Texto>
           <IMG

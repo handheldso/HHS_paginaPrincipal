@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import styled from "@emotion/styled";
 import emailjs from "emailjs-com";
 import { useForm } from "../hooks/useForm";
@@ -76,7 +76,7 @@ const FormEmail = () => {
       cambiarMensajeExito(false);
     }, 5000);
   };
-
+  const form = useRef();
   return (
     <>
       <TituloDiv className="mb-4">
@@ -87,7 +87,7 @@ const FormEmail = () => {
 
       {mensajeExito ? <Exito mensaje="Formulario enviado con éxito." /> : null}
 
-      <form onSubmit={enviarForm}>
+      <form ref={form} onSubmit={enviarForm}>
         <div className="grupos form-group">
           <label>Nombre y Apellido: </label>
           <input

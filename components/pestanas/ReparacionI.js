@@ -332,7 +332,7 @@ const ReparacionI = () => {
         </MitadIzq>
         <MitadDer>
           <IMG
-            src="/img/REPARACIÓN IMPRESORAS.webp"
+            src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691175611/HHSv2.1/reparacion_impresoras.png"
             alt="Reparacion de Impresoras de Etiquetas"
           />
         </MitadDer>

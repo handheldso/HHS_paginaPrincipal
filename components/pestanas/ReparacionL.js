@@ -355,7 +355,7 @@ const ReparacionI = () => {
         </MitadIzq>
         <MitadDer>
           <IMG
-            src="/img/REPARACIÓN LECTORES.webp"
+            src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691175431/HHSv2.1/reparacion_lectores.png"
             alt="Reparacion de Lectores de Codigos de Barras"
           />
         </MitadDer>

@@ -157,7 +157,7 @@ const Reparacion = () => {
             </Info>
             <ImagenDiv>
               <Imagen
-                src="/img/servicio-poliza-reparacion.webp"
+                src="https://res.cloudinary.com/dihawqrnt/image/upload/v1691175251/HHSv2.1/reparaiones.png"
                 alt="Reparacion de Handheld, Impresoras de Etiquetas y Lectores de codigo de barras"
               />
             </ImagenDiv>

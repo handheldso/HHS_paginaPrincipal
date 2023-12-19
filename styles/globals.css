@@ -1,3 +1,95 @@
+.img_icon[id="wp"]:hover{
+  background-color: #00ab88;
+}
+.img_icon[id="fb"]:hover{
+  background-color: #3968aa;
+}
+.img_icon[id="ln"]:hover{
+  background-color: #003e75;
+}
+.img_icon[id="yt"]:hover{
+  width: 30px;
+  background-color: #ff0000;
+}
+.img_icon[id="tk"]:hover{
+  background-color: #21c5cb;
+}
+.img_icon[id="ig"]:hover{
+  background-color: #de088e;
+}
+.img_icon[id="tw"]:hover{
+  background-color: #08a1f0;
+}
+@media(max-width: 699px){
+
+  .carousel-item img{
+    height: 50vw;
+  
+  }
+}
+
+.img_icon:hover{
+  transform: scale(1.5);
+  mix-blend-mode: normal;
+  transition: transform .5s;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 3px;
+  height: 30px;
+  
+}
+
+@media (min-width: 320px) and (max-width:995px){
+  .nav_redes button{
+    margin-top: 10px;
+  }
+  .scroll-down .nav_donw:last-child{
+    background-color: #212121 !important;
+    margin-top: 130px !important;
+  }
+  .btn{
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 1000px) and (max-width:1600px){
+  .btn{
+    max-width: 100% !important;
+  }
+}
+
+.textoprincipal{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+@media (max-width: 699px) {
+  .textoprincipal{
+    flex-direction: column;
+    padding: 0px;
+  }
+  .textoprincipal p{
+    margin: 0px;
+  }
+}
+.textoprincipal p{
+  
+  margin: 30px;
+  font-size: 20px;
+  color:#495057;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.nav-link:hover{
+  background-color: #0078c0 ;
+  border-radius: 5px;
+  transform: scale(1.05);
+  mix-blend-mode:normal;
+  transition: transform .2s; 
+  font-weight: 560;
+  border:1px solid #fff;
+  filter: drop-shadow(1px 1px 0px #fff) ;
+}
 html,
 body {
   padding: 0;
@@ -31,7 +123,89 @@ a {
   color: inherit;
   text-decoration: none !important;
   border-bottom: none;
-  color: white !important;
+  color: #000 !important;
+}
+.btn{
+  max-width: 20% ;
+}
+.nav_redes button{
+  font-size: 12pt;
+}
+.navbar-collapse{
+  justify-content: center;
+}
+.navbar-toggler{
+  border-color:white !important;
+}
+.navbar h4,
+.navbar {
+  text-align: center;
+}
+.nav-link{
+  color:#fff !important;
+}
+.tel{
+  font-size: 15px;
+  border: 0px;
+  color:#fff !important;
+}
+.btn-outline-light:hover{
+  color:#000 !important
+}
+
+#nav-dropdown{
+  color:#fff !important;
+}
+.dropdown-menu a{
+  color: #000 !important; 
+}
+#header button{
+  border:0px;
+}
+#nav-menu{
+  text-align: center;
+  background-color: #0078c0  !important;
+  justify-content: center;
+
+  border-top: 1px solid #fff;
+}
+.scroll-down .nav_contacto{
+  display: none !important;
+}
+
+.scroll-up .nav_contacto{
+    display: block;
+}
+.scroll-down .nav_tarjeta{
+  display: none !important;
+}
+
+.scroll-up .nav_tarjeta{
+    display: block;
+}
+.scroll-down .nav_donw{
+  width: 100%;
+  position: fixed !important;
+  z-index: 16 !important;
+}
+
+.scroll-up .nav_donw{
+  width: 100%;
+  z-index: 16 !important;
+}
+.scroll-down .nav_donw:last-child{
+  background-color: #212121 !important;
+  margin-top: 50px;
+}
+.nav_redes{
+  display: flex;
+  justify-content: center;
+}
+.css-bnboi9-ImgRedes:hover{
+  transform: scale(1.2);
+  mix-blend-mode:normal;
+  transition: transform .5s; 
+  filter: drop-shadow(-1px -1px 7px #fff) ;
 }
 
 
@@ -682,7 +856,7 @@ li {
 }
 
 .bg-dark {
-  background-color: black !important;
+  background-color: #0076C0 !important;
 }
 
 .navbar {
@@ -703,7 +877,7 @@ li {
 
 
 .dropdown-menu {
-  background-color: black !important;
+
 }
 
 .navbar-nav {
